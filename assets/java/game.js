@@ -51,26 +51,25 @@ in player rules tell player not to refresh the page otherwise the game will rest
 
 
 
-   /*when the game starts you are giving a random number
-   random number = 19-120
-   store the random number and display it in its div
-   when game resets generate new random number*/
+/*when the game starts you are giving a random number
+random number = 19-120
+store the random number and display it in its div
+when game resets generate new random number*/
 
-$(document).ready(function(){
-    
-    var playerScore =  0;
+$(document).ready(function () {
+
+    var playerScore = 0;
     var wins = 0;
     var losses = 0;
     var randomNum = 0;
     var gems = [];
-    var
+    function genNumber(min, max) {
 
-    function genNumber(min,max) 
-{
-    return Math.floor(Math.random()*(max-min+1)+min);
-}
+        return Math.floor(Math.random() * (max - min + 1) + min);
 
-console.log(genNumber(19,120));
+    }
+
+    console.log(genNumber(19, 120));
 
 
 
