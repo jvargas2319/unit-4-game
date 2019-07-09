@@ -11,54 +11,49 @@
 </head>
 
 <body>
-    <!--create layout for the game
-    i need a header with game title
-    div to store the gyms
-    div to store random number
-    dive to store wins and loses
-    div to store the instructions for the game
-    dive to store the playes score-->
 
-    <div class="container">
-        <header>
-            <h1>Crystal Game</h1>
-        </header>
-        <div class="container">
-            <div class="row1">
-                <div id="col1" class="col-lg-5">
-                    <div class="playerScore">Player Score: <p class="playerScoreText"></p></div>
-                </div>
-                <div id="col2" class="col-lg-5">
-                    <div class="randomNumber">Random Number:<p class="randomNum"></p></div>
+    <header>
+        <h1>Crystal Game</h1>
+    </header>
+    <!--<div class="container">-->
+        <div class="row1">
+            <div id="col1" class="col-lg-5">
+                <div class="playerScore">Player Score: <p class="playerScoreText"></p>
                 </div>
             </div>
-
-            <div class="row2">
-                <div id="col3" class="col-lg-5">
-                    <div class="wins">Wins:<p class="win"></p></div>
-                    <div class="losses">Losses:<p class="losse"></p></div>
+            <div id="col2" class="col-lg-5">
+                <div class="randomNumber">Random Number:<p class="randomNum"></p>
                 </div>
-                <div id="col4" class="col-lg-5">
-                    <div class="gems">
-                        <div class="gem-photos">
-                            <img src="assets/images/Onyx_detail.png" alt="gem1" id="gem1"style="width:30px;height:60px;">
-                            <img src="assets/images/Toktz-ket-xil_detail.png" alt="gem2"
-                               id="gem2"style="width:30px;height:60px;">
-                            <img src="assets/images/Zenyte_detail.png" alt="gem3" id="gem3" style="width:30px;height:60px;">
-                            <img src="assets/images/Zenyte_shard_detail.png" alt="gem4" id="gem4" style="width:30px;height:60px;">
-                        </div>
-                    </div>
+            </div>
+        </div>
 
+        <div class="row2">
+            <div id="col3" class="col-lg-5">
+                <div class="wins">Wins:<p class="win"></p>
+                </div>
+                <div class="losses">Losses:<p class="losse"></p>
+                </div>
+            </div>
+            <div id="col4" class="col-lg-5">
+                <div class="gems">
+                    <div class="gem-photos">
+                        <img src="assets/images/Onyx_detail.png" alt="gem1" id="gem1" style="width:30px;height:60px;">
+                        <img src="assets/images/Toktz-ket-xil_detail.png" alt="gem2" id="gem2"
+                            style="width:30px;height:60px;">
+                        <img src="assets/images/Zenyte_detail.png" alt="gem3" id="gem3" style="width:30px;height:60px;">
+                        <img src="assets/images/Zenyte_shard_detail.png" alt="gem4" id="gem4"
+                            style="width:30px;height:60px;">
+                    </div>
                 </div>
 
             </div>
 
         </div>
-    </div>
-    <script
-    src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
+
+
+   <!-- </div>;-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/java/game.js"></script>
 </body>
 
